@@ -47,16 +47,9 @@ body {
   display: none;
 }
 
-#quote-opening {
-  position: absolute;
-  font-size: 8vw;
-  bottom: -250px;
-  left: 18%;
-}
-
 #desc {
   font-size: 2vw;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   text-align: justify;
 }
 
@@ -68,7 +61,7 @@ body {
   display: block;
   width: 100%;
   text-decoration: none;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .socmed-btn {
@@ -103,6 +96,9 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  span {
+    font-size: 4vw;
+  }
   #hero-img-mobi {
     display: block;
     width: 100%;
@@ -112,17 +108,27 @@ body {
     display: none;
   }
   #social-media {
-    margin-top: 10px;
+    margin-top: 0;
   }
   #desc {
-    margin-bottom: 25px;
+    font-size: 3vw;
+    margin-bottom: 55px;
   }
   .socmed-link {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+  }
+  .socmed-btn {
+    font-size: 2.5vw;
   }
 }
 
 @media only screen and (max-width: 360px) {
+  body {
+    padding: 15% 10%;
+  }
+  span {
+    font-size: 6vw;
+  }
   #hero-img-mobi {
     display: block;
     width: 100%;
@@ -135,30 +141,14 @@ body {
     margin-top: 5px;
   }
   #desc {
-    margin-bottom: 15px;
+    font-size: 5vw;
+    margin-bottom: 40px;
   }
   .socmed-link {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
-}
-
-@media only screen and (max-width: 360px) {
-  #hero-img-mobi {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  #hero-img-desk {
-    display: none;
-  }
-  #social-media {
-    margin-top: 5px;
-  }
-  #desc {
-    margin-bottom: 15px;
-  }
-  .socmed-link {
-    margin-bottom: 10px;
+  .socmed-btn {
+    font-size: 4.5vw;
   }
 }
 /*# sourceMappingURL=main.css.map */
