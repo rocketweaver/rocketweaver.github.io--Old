@@ -160,7 +160,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 280px) {
+@media only screen and (max-width: 360px) {
     #hero-img-mobi {
         display: block;
         width: 100%;
@@ -172,14 +172,14 @@ body {
     }
 
     #social-media {
-        margin-top: 2.5px;
+        margin-top: 5px;
     }
 
     #desc {
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
     .socmed-link {
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
 }
